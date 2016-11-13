@@ -83,7 +83,7 @@ function tweetProcess(tweet_status_id,reply_tweet,imageFileName){
     var styleFileName = imageFileName;// + '_stylized';
     var fromStyleFileName = "./images/inputs/style/seated-nude.jpg";
     console.log(imageFileName);
-    PythonShell.run('network.py', { args: [imageFileName,fromStyleFileName, styleFileName ]}, function(err, results){
+    PythonShell.run('Network.py', { args: [imageFileName,fromStyleFileName, styleFileName ]}, function(err, results){
           if (err) //throw err;
 	 console.log(err);
             // results is an array consisting of messages collected during execution
