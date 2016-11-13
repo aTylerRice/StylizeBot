@@ -1,0 +1,24 @@
+{
+  "name": "twitterStyleTransferBot",
+  "version": "0.0.1",
+  "description": " A twitter bot that transfers famous paintings style to images",
+  "main": "imageBot.js",
+  "scripts": {
+    "test": "imageBot.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "twitterbot, twitter"
+  ],
+  "author": "Tyler Rice",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "cron": "^1.1.1",
+    "node-schedule": "^1.2.0",
+    "node-uuid": "^1.4.7",
+    "nstore": "^0.5.2",
+    "python-shell": "^0.4.0",
+    "request": "^2.72.0",
+    "twit": "^2.2.5"
+  }
+}
